@@ -14,6 +14,10 @@ body {
 }
 .muba{
     text-align: center;
+    border: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .container {
     display: flex;
