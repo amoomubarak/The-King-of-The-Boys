@@ -12,6 +12,9 @@ body {
     min-height: 100vh;
     width: 100%;
 }
+.muba{
+    text-align: center;
+}
 .container {
     display: flex;
     justify-content: center;
