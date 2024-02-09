@@ -4,7 +4,7 @@ function validation(){
         return false;
     }
     else if(document.Formfill.Username.value.length<6){
-        document.getElementById("result").innerHTML="At least six letter*";
+        document.getElementById("result").innerHTML="Atleast The Username Must Be Morethan six letter*";
         return false;
     }
     else if(document.Formfill.Email.value==""){
@@ -24,7 +24,7 @@ function validation(){
         return false;
     } 
     else if(document.Formfill.CPassword.value !== document.Formfill.Password.value){
-        document.getElementById("result").innerHTML="Password does'nt matched*";
+        document.getElementById("result").innerHTML="Password doesn't matched*";
         return false;
     }
     else if(document.Formfill.Password.value == document.Formfill.CPassword.value){
